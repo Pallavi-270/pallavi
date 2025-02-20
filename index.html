@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm [Your Name], a web developer!</p>
+    <header>
+        <h1>L K V M Pallavi</h1>
+        <p>Web Engineer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web engineer with expertise in building dynamic and scalable web applications using HTML,CSS,JavaScript and Node.js. I specialize in developing robust backend systems, optimizing performance, and creating seamless user experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skill-list">
+            <li>HTML</li>
+            <lI>CSS</lI>
+            <li>JavaScript</li>
+            <li>NodeJs</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" onclick="showProject('Project 1')">
+            <h3>Project</h3>
+            <p>VegaPoint website using HTML CSS JavaScript</p>
+    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        
+        <p>You can reach me at:</p>
+        
+        <!-- GitHub Link -->
+        <p>
+            <a href="https://github.com/Pallavi-270" target="_blank">
+                <img src="images/github-icon.png" width="30"> GitHub
+            </a>
+        </p>
+    
+        <!-- Email Link -->
+        <p>
+            <a href="mailto:pallavibandaru23@gmail.com">
+                <img src="images/email-icon.png" alt="Email:" width="30">pallavibandaru23@gmail.com
+            </a>
+        </p>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 pallavi. All Rights Reserved.</p>
+    </footer>
+
+    <script href="script.js">
+        
+    </script>
 </body>
 </html>
