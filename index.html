@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,69 +8,99 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>L K V M Pallavi</h1>
-        <p>Web Engineer</p>
-        <nav>
+        <div>
+            <img id="logo" src="/Screenshot_2025-02-26_141157-removebg-preview.png" width="20%" />
+        </div>
+        <div>
+        <nav id="nav">
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a
+                        href="https://drive.google.com/file/d/1gmaODV4449s4BsAp2LD6qGPiNtcXJJII/view?usp=sharing">Resume</a>
+                </li>
             </ul>
         </nav>
+    </div>
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web engineer with expertise in building dynamic and scalable web applications using HTML,CSS,JavaScript and Node.js. I specialize in developing robust backend systems, optimizing performance, and creating seamless user experiences.</p>
+    <section id="home">
+        <div id="content">
+        <p>Hi👋 I'm,</p>
+        <h1>L K Veera Manikanta Pallavi</h1>
+    </div>
+        <img id="profile" src="/WhatsApp Image 2025-02-04 at 7.30.56 PM.jpeg" width="100px" height="200px" />
     </section>
-
+    <section id="about">
+        <h1>About Me</h1>
+        <div id="container">
+            <p>I am a passionate web engineer with expertise in building dynamic and scalable web applications using
+                HTML,CSS,JavaScript and Node.js. I specialize in developing robust backend systems, optimizing
+                performance, and creating seamless user experiences.</p>
+                <div id="details">
+                    <p>👤 L K Veera Manikanta Pallavi Bandaru</p>
+                    <p>📞 +91-8790388196</p>
+                    <p>✉️ pallavibandaru23@gmail.com</p>
+                    <p>🔗 LinkedIn l-k-v-m-pallavi-bandaru</p>
+                    <p>🔗 Github Pallavi-270</p>
+                    <!-- <img id="git"src="/githuglogo.png" width="50px"/> -->
+                </div>
+            <a id="download" href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" class="download-btn"
+                target="_blank"><button>Download My Resume</button></a>
+            </div>
+    </section>
     <section id="skills">
-        <h2>Skills</h2>
+        <h1>Skills</h1>
         <ul id="skill-list">
             <li>HTML</li>
-            <lI>CSS</lI>
+            <li>CSS</li>
             <li>JavaScript</li>
             <li>NodeJs</li>
         </ul>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <div class="project" onclick="showProject('Project 1')">
             <h3>Project</h3>
             <p>VegaPoint website using HTML CSS JavaScript</p>
-    </div>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact Me</h2>
-        
-        <p>You can reach me at:</p>
-        
-        <!-- GitHub Link -->
-        <p>
-            <a href="https://github.com/Pallavi-270" target="_blank">
-                <img src="images/github-icon.png" width="30"> GitHub
-            </a>
-        </p>
-    
-        <!-- Email Link -->
-        <p>
-            <a href="mailto:pallavibandaru23@gmail.com">
-                <img src="images/email-icon.png" alt="Email:" width="30">pallavibandaru23@gmail.com
-            </a>
-        </p>
-    </section>
-    
+        <h1>Contact Me</h1>
 
+        <p>You can reach me at:</p>
+
+        <!-- GitHub Link -->
+        <div id="sociallink">
+            <a href="https://github.com/Pallavi-270" target="_blank">
+                <img src="/githuglogo.png" width="50px"> GitHub
+            </a>
+        </div>
+        <!-- Email Link -->
+        <div id="sociallink">
+            <a href="mailto:pallavibandaru23@gmail.com">
+                <img src="/gmail.png" alt="Email:" width="50px">pallavibandaru23@gmail.com
+            </a>
+        </div>
+        <div id="sociallink">
+            <a href="https://www.linkedin.com/in/l-k-v-m-pallavi-bandaru-061069253">
+                <img src="/linkedin.png" width="50px">Linkedin
+            </a>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2025 pallavi. All Rights Reserved.</p>
+        <p> &copy; 2025 pallavi @All Rights Reserved</p>
     </footer>
 
     <script href="script.js">
-        
+
     </script>
 </body>
+
 </html>
