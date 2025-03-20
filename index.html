@@ -12,80 +12,85 @@
 <body>
     <header>
         <div>
-            <img id="logo" src="/pallavi/images/Screenshot_2025-02-26_141157-removebg-preview.png" width="20%" >
+            <img id="logo" src="/pallavi/images/Screenshot_2025-02-26_141157-removebg-preview.png" width="20%">
         </div>
         <div>
-        <nav id="nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#tech-skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1gmaODV4449s4BsAp2LD6qGPiNtcXJJII/view?usp=sharing" target="_blank" 
-                    download="Resume.pdf">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <div class="hamburger">
-        ☰
-    </div>
+            <nav id="nav">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#tech-skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1gmaODV4449s4BsAp2LD6qGPiNtcXJJII/view?usp=sharing"
+                            target="_blank" download="Resume.pdf">Resume</a>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            </nav>
+        </div>
+       
     </header>
     <section id="home">
+        <div id="home-container">
         <div id="content">
-        <p>Hi👋 I'm,</p>
-        <h1>L K Veera Manikanta Pallavi</h1>
+            <p><span style="font-size:1.2em;">Hi👋 I'm,</span></p>
+            <h2>L K Veera Manikanta Pallavi</h2>
+        </div>
+        <div>
+            <img id="profile" src="/pallavi/images/WhatsApp Image 2025-02-04 at 7.30.56 PM.jpeg" width="100px"
+                height="200px">
+        </div>
     </div>
-        <img id="profile" src="/pallavi/images/WhatsApp Image 2025-02-04 at 7.30.56 PM.jpeg" width="100px" height="200px">
     </section>
     <section id="about">
-        <h1>About Me</h1>
-        <div id="container">
+        <h1 style="font-size: 2em;">About Me</h1>
+        <div id="about-container">
             <p>I am a passionate web engineer with expertise in building dynamic and scalable web applications using
                 HTML,CSS,JavaScript and Node.js. I specialize in developing robust backend systems, optimizing
                 performance, and creating seamless user experiences.</p>
-                <div id="details">
-                    <p>👤 L K Veera Manikanta Pallavi Bandaru</p>
-                    <p>📞 +91-8790388196</p>
-                    <p>✉️ pallavibandaru23@gmail.com</p>
-                    <p><i class="fa-brands fa-linkedin"></i> l-k-v-m-pallavi-bandaru</p>
-                    <p><i class="fa-brands fa-github"></i> Pallavi-270</p>
-                    <!-- <img id="git"src="/githuglogo.png" width="50px"/> -->
-                </div>
-            <a id="download" href="https://drive.google.com/uc?export=download&id=1gmaODV4449s4BsAp2LD6qGPiNtcXJJII
-            " class="download-btn"
-                target="_blank"><button>Download My Resume</button></a>
+            <div id="details">
+                <p>👤 L K Veera Manikanta Pallavi Bandaru</p>
+                <p>📞 +91-8790388196</p>
+                <p>✉️ pallavibandaru23@gmail.com</p>
+                <p><i class="fa-brands fa-linkedin"></i> l-k-v-m-pallavi-bandaru</p>
+                <p><i class="fa-brands fa-github"></i> Pallavi-270</p>
             </div>
+            <a id="download" href="https://drive.google.com/uc?export=download&id=1gmaODV4449s4BsAp2LD6qGPiNtcXJJII
+            " class="download-btn" target="_blank"><button>Download My Resume</button></a>
+        </div>
     </section>
     <section id="tech-skills">
-        <h2>Tech-Skills</h2>
-        <div class="skills">
-            <img src="/pallavi/images/html.jpeg"/>
-        </div>
-        <div class="skills">
-            <img src="/pallavi/images/css.jpeg"/>
-        </div>
-        <div class="skills">
-            <img src="/pallavi/images/js.jpeg"/>
-        </div>
-        <div class="skills">
-            <img src="/pallavi/images/nodejs.jpeg"/>
+        <h1 style="font-size: 2em;">Tech-Skills</h1>
+        <div class="skillcontainer">
+            <div class="skills">
+                <img src="/pallavi/images/html.jpeg" width="100px" height="100px" ; />
+            </div>
+            <div class="skills">
+                <img src="/pallavi/images/css.jpeg" width="100px" height="100px" />
+            </div>
+            <div class="skills">
+                <img src="/pallavi/images/js.jpeg" width="100px" height="100px" />
+            </div>
+            <div class="skills">
+                <img src="/pallavi/images/nodejs.jpeg" width="100px" height="100px" />
+            </div>
         </div>
     </section>
 
     <section id="projects">
-        <h1>Projects</h1>
+        <h1 style="font-size: 2em;">Projects</h1>
         <div class="project" onclick="showProject('Project 1')">
-            <h3>Project</h3>
+            <h3>E-Commerce Website</h3>
+            <img src="./images/image.png" width="800px"/>
             <p>VegaPoint website using HTML CSS JavaScript</p>
         </div>
     </section>
     <section id="contact">
-        <h1>Contact Me</h1>
+        <h1 style="font-size: 2em;">Contact Me</h1>
 
-        <p>You can reach me at:</p>
-
+<div id="contact-container">
+    <p><span style="font-size: 1.5em;">You can reach me at:</span></p>
         <!-- GitHub Link -->
         <div id="sociallink">
             <a href="https://github.com/Pallavi-270" target="_blank">
@@ -103,14 +108,13 @@
                 <img src="/pallavi/images/linkedin.png" width="50px">Linkedin
             </a>
         </div>
+    </div>
     </section>
     <footer>
         <p> &copy; 2025 pallavi @All Rights Reserved</p>
     </footer>
 
-    <script href="script.js">
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
